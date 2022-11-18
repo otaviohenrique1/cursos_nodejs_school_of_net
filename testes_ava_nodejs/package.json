@@ -1,0 +1,40 @@
+{
+  "name": "testes_ava_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "node_modules/.bin/ava tests/**/**.test.js --verbose",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^3.10.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "supertest": "^4.0.2"
+  },
+  "ava": {
+    "babel": true,
+    "require": [
+      "esm",
+      "@babel/register",
+      "@babel/polyfill"
+    ]
+  },
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "esm": "^3.2.25",
+    "nyc": "^15.1.0"
+  }
+}

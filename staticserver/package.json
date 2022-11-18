@@ -1,0 +1,17 @@
+{
+  "name": "son_staticserverv2",
+  "version": "4.0.0",
+  "description": "This is my first public package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Static server, webserver, node server"
+  ],
+  "author": "Otavio Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "son_staticserverv1": "^4.0.0"
+  }
+}

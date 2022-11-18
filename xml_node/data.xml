@@ -1,0 +1,18 @@
+<?xml version="1.0">
+<series>
+    <serie id="1">
+        <titulo>Lost</titulo>
+        <genero>Aventura</genero>
+        <temporadas>4</temporadas>
+    </serie>
+    <serie id="2">
+        <titulo>Dark</titulo>
+        <genero>Acao</genero>
+        <temporadas>1</temporadas>
+    </serie>
+    <serie id="3">
+        <titulo>The 100</titulo>
+        <genero>Cientifica</genero>
+        <temporadas>2</temporadas>
+    </serie>
+</series>
