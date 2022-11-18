@@ -1,0 +1,19 @@
+{
+  "name": "iniciando_express",
+  "version": "1.0.0",
+  "description": "iniciando com express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otavio",
+  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

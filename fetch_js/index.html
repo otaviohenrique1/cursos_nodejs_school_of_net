@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            // fetch('http://ip.jsontest.com/', {
+            //     method: 'GET',
+            //     body: {},
+            //     mode: 'cors',
+            //     headers: {},
+            //     redirect: ''
+            // })
+            // .then(function(reponse) {
+            //     reponse.json()
+            //     .then(function(data) {
+            //         console.log(data);
+            //     });
+            // })
+            fetch('http://ip.jsontest.com/', {
+                method: 'GET'
+            })
+            .then(response => response.json())
+            .then(result => console.log(result))
+        </script>
+    </body>
+</html>

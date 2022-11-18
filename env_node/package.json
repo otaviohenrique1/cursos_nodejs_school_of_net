@@ -1,0 +1,17 @@
+{
+  "name": "env_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && node app",
+    "start": "set NODE_ENV=production && node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

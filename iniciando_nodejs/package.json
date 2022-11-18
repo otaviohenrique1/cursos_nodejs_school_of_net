@@ -1,0 +1,16 @@
+{
+  "name": "iniciando_nodejs",
+  "version": "1.0.0",
+  "description": "iniciando com nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Otavio",
+  "license": "ISC",
+  "dependencies": {}
+}

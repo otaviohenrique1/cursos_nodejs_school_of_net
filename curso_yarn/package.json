@@ -1,0 +1,11 @@
+{
+  "name": "my_project_yarn",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "author": "Otavio Henrique",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
